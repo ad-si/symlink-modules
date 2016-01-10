@@ -1,0 +1,20 @@
+{
+  "name": "symlink-dependencies",
+  "version": "0.0.0",
+  "description": "Symlink module dependencies to ensure a consistent path to access the modules",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {},
+  "keywords": [
+    "symlink",
+    "dependencies",
+    "node_modules",
+    "linked_modules"
+  ],
+  "author": "Adrian Sieber",
+  "license": "MIT",
+  "dependencies": {
+    "resolve-pkg": "^0.1.0",
+    "rimraf": "^2.5.0"
+  }
+}
