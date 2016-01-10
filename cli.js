@@ -2,6 +2,6 @@
 
 'use strict'
 
-const symlinkDependencies = require('./index.js')
+const symlinkModules = require('./index.js')
 
-symlinkDependencies(process.argv.slice(2))
+symlinkModules(process.argv.slice(2))

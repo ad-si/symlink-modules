@@ -1,10 +1,10 @@
 {
-  "name": "symlink-dependencies",
+  "name": "symlink-modules",
   "version": "0.1.0",
   "description": "Symlink module dependencies to ensure a consistent path to access the modules",
   "main": "index.js",
   "bin": {
-    "symlink-dependencies": "cli.js"
+    "symlink-modules": "cli.js"
   },
   "scripts": {},
   "keywords": [
@@ -22,10 +22,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adius/symlink-dependencies.git"
+    "url": "git+https://github.com/adius/symlink-modules.git"
   },
   "bugs": {
-    "url": "https://github.com/adius/symlink-dependencies/issues"
+    "url": "https://github.com/adius/symlink-modules/issues"
   },
-  "homepage": "https://github.com/adius/symlink-dependencies#readme"
+  "homepage": "https://github.com/adius/symlink-modules#readme"
 }
