@@ -1,6 +1,6 @@
 {
   "name": "symlink-modules",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Symlink module dependencies to ensure a consistent path to access the modules",
   "main": "index.js",
   "bin": {
