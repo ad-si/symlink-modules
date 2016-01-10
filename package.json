@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Symlink module dependencies to ensure a consistent path to access the modules",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "symlink-dependencies": "cli.js"
+  },
   "scripts": {},
   "keywords": [
     "symlink",
@@ -16,5 +18,14 @@
   "dependencies": {
     "resolve-pkg": "^0.1.0",
     "rimraf": "^2.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adius/symlink-dependencies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adius/symlink-dependencies/issues"
+  },
+  "homepage": "https://github.com/adius/symlink-dependencies#readme"
 }
